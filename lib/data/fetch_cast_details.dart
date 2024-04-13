@@ -4,6 +4,7 @@ import 'package:movie_details/models/error_model.dart';
 import 'package:movie_details/models/movie_model.dart';
 import 'package:movie_details/models/tv_model.dart';
 
+
 class FetchCastInfoById {
   Future<List<dynamic>> getCastDetails(String id) async {
     var http = Dio();
